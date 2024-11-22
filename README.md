@@ -62,4 +62,11 @@
   - <img width="300px" alt="image" src="https://github.com/user-attachments/assets/962a334f-503c-41ca-bbd9-282d418670eb">
 - 商品管理
   - <img width="300px" alt="image" src="https://github.com/user-attachments/assets/fd376ca6-c10e-4cfa-b4ba-070218edbd84">
- 
+- 商品编辑
+  - <img width="300px" alt="image" src="https://github.com/user-attachments/assets/133d747c-a5ed-4dde-8c35-2ac5315c8d95">
+- 商品上/下架
+  - <img width="300px" alt="image" src="https://github.com/user-attachments/assets/6cec7b8a-34fa-4d1e-a9ea-04d7c7a992fc">
+- 商品详情 
+
+
+
