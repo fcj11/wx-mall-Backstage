@@ -1,0 +1,133 @@
+// 主题变量
+:root {
+  --primary-color: #409EFF;
+  --success-color: #67C23A;
+  --warning-color: #E6A23C;
+  --danger-color: #F56C6C;
+  --info-color: #909399;
+  
+  --text-color: #303133;
+  --text-color-secondary: #909399;
+  
+  --border-color: #DCDFE6;
+  --border-color-light: #E4E7ED;
+  
+  --background-color: #F5F7FA;
+  --background-color-light: #FAFAFA;
+  
+  // 添加字体相关变量
+  --font-size-base: 14px;
+  --font-size-lg: 16px;
+  --font-size-sm: 12px;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 600;
+  
+  // 添加间距变量
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  
+  // 添加圆角变量
+  --border-radius-sm: 2px;
+  --border-radius-md: 4px;
+  --border-radius-lg: 8px;
+  
+  // 添加阴影变量
+  --box-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --box-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --box-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  
+  // 添加过渡变量
+  --transition-duration: 0.3s;
+  --transition-timing: ease-in-out;
+  
+  // 添加表单相关变量
+  --form-label-width: 120px;
+  --form-input-height: 40px;
+  --form-gap: 20px;
+  
+  // 添加商品表单特定变量
+  --product-image-size: 100px;
+  --product-preview-size: 200px;
+  
+  // 添加上传组件变量
+  --upload-border-color: #d9d9d9;
+  --upload-border-hover: var(--primary-color);
+  --upload-bg-color: #fafafa;
+}
+
+// 深色主题
+[data-theme="dark"] {
+  --primary-color: #409EFF;
+  --text-color: #FFFFFF;
+  --background-color: #1F2937;
+  --border-color: #374151;
+  
+  // 更新阴影变量适应深色主题
+  --box-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --box-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+  --box-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+  
+  // 添加深色主题特有的背景色
+  --background-color-secondary: #374151;
+  --background-color-tertiary: #4B5563;
+  
+  // 更新深色主题下的表单变量
+  --upload-border-color: #4a5568;
+  --upload-bg-color: #2d3748;
+}
+
+// 添加以下代码来防止 ResizeObserver 警告
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+  height: 100vh;
+  scroll-behavior: smooth;
+  
+  // 添加基础字体设置
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: var(--font-size-base);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  
+  // 添加平滑过渡效果
+  transition: background-color var(--transition-duration) var(--transition-timing),
+              color var(--transition-duration) var(--transition-timing);
+}
+
+// 确保所有滚动容器都有正确的溢出处理
+.scrollable-container {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch; // 为 iOS 设备提供更好的滚动体验
+  
+  // 添加嵌套滚动容器的样式
+  &--nested {
+    max-height: 100%;
+    border-radius: var(--border-radius-md);
+    background-color: var(--background-color-light);
+  }
+}
+
+// 滚动条样式优化
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-color) transparent;
+  
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--border-color);
+    border-radius: 3px;
+  }
+}
