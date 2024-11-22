@@ -67,6 +67,24 @@
 - 商品上/下架
   - <img width="300px" alt="image" src="https://github.com/user-attachments/assets/6cec7b8a-34fa-4d1e-a9ea-04d7c7a992fc">
 - 商品详情 
-
-
+  - <img width="300px" alt="image" src="https://github.com/user-attachments/assets/9beabe31-582b-423f-8b06-007fd1d6e349">
+- 订单管理
+  - <img width="300px" alt="image" src="https://github.com/user-attachments/assets/ef8f314a-0bd8-495b-b3c5-f2abaf6d6c06">
+- 订单详情
+  - <img width="300px" alt="image" src="https://github.com/user-attachments/assets/98f175e4-7cef-420b-9122-668eb670638f">
+- 订单状态
+  - <img width="300px" alt="image" src="https://github.com/user-attachments/assets/274f3fcc-953e-47ca-984c-65f67b417c49">
+- 用户管理
+  - <img width="300px" alt="image" src="https://github.com/user-attachments/assets/85d95bfc-1c1a-49d5-9f49-f10592f2fea7">
+- 用户编辑
+  - <img width="300px" alt="image" src="https://github.com/user-attachments/assets/16db4a48-8acf-4208-a423-69fe3064c434">
+- 系统设置
+  - 系统配置
+    - <img width="300px" alt="image" src="https://github.com/user-attachments/assets/03f26f51-880d-40c3-9852-ba31e6ed2b3c">
+  - 个人信息
+    - <img width="300px" alt="image" src="https://github.com/user-attachments/assets/07467fd9-67df-4bc2-9c7b-c564c526f9b0">
+  - 修改密码
+    - <img width="300px" alt="image" src="https://github.com/user-attachments/assets/fbab8531-06a2-4d94-b051-0dc8788c46d2">
+- 404
+  - <img width="300px" alt="image" src="https://github.com/user-attachments/assets/6ac4e2a9-4f48-4642-a07f-fee6935c08cf">
 
